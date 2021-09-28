@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* general */
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-30{
+  flex: 0 1 30%;
+}
+.padding{
+  padding: 100px 220px;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgb(253,101,107);
+  padding: 8px 30px;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/*header*/
+.header{
+  background-color: rgb(1,45,91);
+  padding: 20px;
+  
+}
+.header nav a{
+  color: aliceblue;
+  text-decoration: none;
+  
+}
+.nav-mail a{
+  padding-right: 300px;
+}
+.nav-link a{
+  margin-right: 30px;
+}
+span{
+  margin-left: 10px;
+}
+.dot{
+  font-size: 50px;
+  margin-right: 20px;
+}
+.brand{
+  margin-right: 300px;
+  color: rgb(1,45,91);
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: 900;
+  
+}
+.header-nav a{
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(1,45,91);
+}
+.header-nav{
+  margin-top: 20px;
+}
+.header-nav-contact{
+  margin-top: 20px;
+  font-size: 20px;
+  
+}
+
+.btn-primary a{
+  text-decoration: none;
+  color: white;
+}
+
+/*hero*/
+.section-h2 {
+  color: red;
+  font-size: 25px;
+}
+.section-p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(1,45,91);
+  margin-bottom: 30px;
+}
+.btn-secondary{
+  color: white;
+}
+.hero{
+  height: 80vh;
+}
+.hero-text{
+  margin-top: 100px ;
+  margin-left: 150px;
+}
+
+.hero-img img{
+  width: 93.5%;
+  position: absolute;
+  z-index: -5;
+  top: 120px;
+}
+
+
+/*team*/
+.team-section {
+  background-color: rgb(246,249,254);
+}
+
+.team-img img{
+  width: 100%;
+}
+.team-box{
+  border: 2px solid red;
+  width: 300px;
+  height: 330px;
+}
+.team-h2 {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.team-para {
+  padding-top: 20px;
+  color: rgb(51, 89, 141);
+  line-height: 1.5;
+}
+
+.team-box-h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.line {
+  height: 5px;
+  width: 100px;
+  background-color: red;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+.team-box-para {
+ color: rgb(51, 89, 141);
+ padding-top: 20px;
+ line-height: 1.5;
+ margin-left: 35px;
+}
+.view {
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+/*team wetrusted*/
+
+.team-work {
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.team-work img {
+  width: 450px;
+}
+.bg {
+  background-color: violet;
+  height: 400px;
+  width: 400px;
+}
+.teamwork-h2 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-left: 30px;
+}
+.teamwork-para {
+  margin-left: 30px;
+}
